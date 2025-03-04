@@ -17,7 +17,7 @@ if TYPE_CHECKING:
 
 log = logging.getLogger("ballsdex.packages.countryballs")
 
-SPAWN_CHANCE_RANGE = (40, 55)
+SPAWN_CHANCE_RANGE = (25, 35)
 
 CachedMessage = namedtuple("CachedMessage", ["content", "author_id"])
 
