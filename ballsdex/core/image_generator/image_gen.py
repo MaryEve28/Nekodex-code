@@ -87,7 +87,7 @@ def draw_card(
             (100, 1050 + 100 * i),
             line,
             font=capacity_name_font,
-            fill=(230, 230, 230, 255),
+            fill=(0, 0, 0, 255),
             stroke_width=2,
             stroke_fill=(0, 0, 0, 255),
         )
@@ -119,7 +119,7 @@ def draw_card(
         (1120, 1670),
         str(ball_instance.attack),
         font=stats_font,
-        fill=(252, 194, 76, 255),
+        fill=(0, 0, 0, 255),
         stroke_width=1,
         stroke_fill=(0, 0, 0, 255),
         anchor="ra",
